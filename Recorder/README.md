@@ -1,3 +1,9 @@
-All codes related to the recording process, without being merged into the other features of the project are here.
+# RecordAudioExample
 
-Those codes were copied from github.com/Wilsonilo/RecordAudioExample and changed to our goals. The Swift syntax had to be changed as a whole.
+
+Simple Record Example (Swift) based on some of the work of:
+
+RShankar: https://github.com/rshankras
+And Jared Davidson: https://www.youtube.com/watch?v=4qj1piMAPE0
+
+Hope this help someone.
