@@ -12,6 +12,8 @@
 		3F67C6901E6DD0B100BD11FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F67C68E1E6DD0B100BD11FA /* Main.storyboard */; };
 		3F67C6921E6DD0B100BD11FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F67C6911E6DD0B100BD11FA /* Assets.xcassets */; };
 		3F67C6951E6DD0B100BD11FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F67C6931E6DD0B100BD11FA /* LaunchScreen.storyboard */; };
+		64FDD16B1E6E545D00BB58C3 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FDD16A1E6E545D00BB58C3 /* HomeTableViewController.swift */; };
+		64FDD16D1E6E566D00BB58C3 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FDD16C1E6E566D00BB58C3 /* HomeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3F67C6911E6DD0B100BD11FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F67C6941E6DD0B100BD11FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F67C6961E6DD0B100BD11FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64FDD16A1E6E545D00BB58C3 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeTableViewController.swift; path = MusicJoinT/HomeTableViewController.swift; sourceTree = "<group>"; };
+		64FDD16C1E6E566D00BB58C3 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		3F67C67E1E6DD0B100BD11FA = {
 			isa = PBXGroup;
 			children = (
+				64FDD16A1E6E545D00BB58C3 /* HomeTableViewController.swift */,
 				3F67C6891E6DD0B100BD11FA /* MusicJoinT */,
 				3F67C6881E6DD0B100BD11FA /* Products */,
 			);
@@ -54,10 +59,11 @@
 		3F67C6891E6DD0B100BD11FA /* MusicJoinT */ = {
 			isa = PBXGroup;
 			children = (
-				3F67C69C1E6DD2CA00BD11FA /* Supporting Files */,
 				3F67C68C1E6DD0B100BD11FA /* ViewController.swift */,
 				3F67C68E1E6DD0B100BD11FA /* Main.storyboard */,
+				64FDD16C1E6E566D00BB58C3 /* HomeTableViewCell.swift */,
 				3F67C6911E6DD0B100BD11FA /* Assets.xcassets */,
+				3F67C69C1E6DD2CA00BD11FA /* Supporting Files */,
 			);
 			path = MusicJoinT;
 			sourceTree = "<group>";
@@ -144,7 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64FDD16B1E6E545D00BB58C3 /* HomeTableViewController.swift in Sources */,
 				3F67C68D1E6DD0B100BD11FA /* ViewController.swift in Sources */,
+				64FDD16D1E6E566D00BB58C3 /* HomeTableViewCell.swift in Sources */,
 				3F67C68B1E6DD0B100BD11FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +313,7 @@
 				3F67C69B1E6DD0B100BD11FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
